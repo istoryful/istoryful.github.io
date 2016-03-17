@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>istoryful</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Timeline CSS -->
+    <link href="dist/css/timeline.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="../bower_components/morrisjs/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="dist/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">        
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">                
+                <a class="navbar-brand" href="index.html">istoryful - I create many stories by itself</a>
+            </div>
+            <!-- /.navbar-header -->
+            
+            <!-- /.navbar-top-links -->
+
+              <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li class="sidebar-search">
+                            <div class="input-group custom-search-form">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                            </div>
+                            <!-- /input-group -->
+                        </li>
+                        <li>
+                            <a href="index.html"><i class="fa fa-bar-chart-o fa-fw"></i> Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-wrench fa-fw"></i> Growing Full Stack Developer<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">                                                                
+                                <li>
+                                    <a href="#">Client <span class="fa arrow"></span></a>
+                                    <!-- /.nav-third-level -->
+                                    <ul class="nav nav-third-level">
+                                        <li>
+                                            <a href="#">Android Framework</a>
+                                        </li>                                       
+                                    </ul>                                    
+                                </li>
+                                <li>
+                                    <a href="#">Server <span class="fa arrow"></span></a>
+                                    <!-- /.nav-third-level -->
+                                    <ul class="nav nav-third-level">
+                                        <li>
+                                            <a href="#">Servlet/JSP</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Spring framework</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Nodejs</a>
+                                        </li>                                       
+                                    </ul>                                    
+                                </li>
+                                <li>
+                                    <a href="#">Database <span class="fa arrow"></span></a>
+                                    <!-- /.nav-third-level -->
+                                    <ul class="nav nav-third-level">
+                                        <li>
+                                            <a href="#">Sqlite</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Mysql</a>
+                                        </li>                                        
+                                    </ul>                                    
+                                </li>
+                                <li>
+                                    <a href="#">WEB Front<span class="fa arrow"></span></a>
+                                    <!-- /.nav-third-level -->
+                                    <ul class="nav nav-third-level">
+                                        <li>
+                                            <a href="#">HTML</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">CSS</a>
+                                        </li>  
+                                         <li>
+                                            <a href="#">Jquery</a>
+                                        </li>  
+                                    </ul>                                    
+                                </li>
+                                <li>
+                                    <a href="#">Network</a>                                    
+                                </li>
+                                <li>
+                                    <a href="#">Data Modeling</a>
+                                </li>                                                                                       
+                                <li>
+                                    <a href="#">User Experience/User need</a>
+                                </li>                               
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>                        
+                        <li>
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i> Sharing Bloger<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#">Useful Review</a>
+                                </li>
+                                <li>
+                                    <a href="#">Self Development</a>
+                                </li>                                
+                                <li>
+                                    <a href="#">Blog Storyteller</a>
+                                </li>
+                                <li>
+                                    <a href="#">Service Bulider/Analyst</a>
+                                </li>                                
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        
+                        <li>
+                            <a href="#"><i class="fa fa-dashboard fa-fw"></i> Sustainable Designer<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#">Photoshop User</a>
+                                </li>
+                                <li>
+                                    <a href="#">Idea Banker</a>
+                                </li>
+                                <li>
+                                    <a href="#">Memo Liker</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-edit fa-fw"></i> Helpful Accountant<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="#">Double Entry Money Booker</a>
+                                </li>
+                                <li>
+                                    <a href="#">Economy Book Reader</a>
+                                </li>                                
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-table fa-fw"></i> Portfolio - Product List</a>
+                        </li>
+                        <!--<li>
+                            <a href="forms.html"><i class="fa fa-sitemap fa-fw"></i>가계부 북클럽 활동중</a>
+                        </li>-->
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Achievement</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->            
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-8">                    
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-clock-o fa-fw"></i> Responsive Timeline
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <ul class="timeline">
+                                <li>
+                                    <div class="timeline-badge info"><i class="fa fa-flag"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">2016년</h4>
+                                            <!--<p><small class="text-muted"><i class="fa fa-clock-o"></i> 11 hours ago via Twitter</small>
+                                            </p>-->
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>가계부 경제/경영관련 북클럽 참여</p>
+                                            <p>자바 스크립트 웹 기반 시스템 구축중</p>
+                                            <p>안드로이드 앱 서비스 기반 시스템 구축중</p>
+                                            <p>안드로이드 앱 서비스 기반 시스템 구축중</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-inverted">
+                                    <div class="timeline-badge warning"><i class="fa fa-credit-card"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">2015년</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>가계부 서비스와 연계된 문자관련 앱 개발</p>                                            
+                                            <p>-구글 플레이 스토어 베타 테스트 진행중</p>          
+                                            <p>오픈소스 저장소 GitHub 가입</p>          
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="timeline-badge danger"><i class="fa fa-bomb"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">2014년</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>개인 네이버 블로그 시작</p>                                            
+                                            <p>마케팅 관련 기초 강의 수강(네이버 파트너 스퀘어)</p>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </li>
+                               
+                                <li class="timeline-inverted">
+                                    <div class="timeline-badge"><i class="fa fa-check"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">2011년~2013년</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>경제/재무 독서/수강 진행</p>
+                                            <!--<hr>
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
+                                                    <i class="fa fa-gear"></i>  <span class="caret"></span>
+                                                </button>
+                                                <ul class="dropdown-menu" role="menu">
+                                                    <li><a href="#">Action</a>
+                                                    </li>
+                                                    <li><a href="#">Another action</a>
+                                                    </li>
+                                                    <li><a href="#">Something else here</a>
+                                                    </li>
+                                                    <li class="divider"></li>
+                                                    <li><a href="#">Separated link</a>
+                                                    </li>
+                                                </ul>
+                                            </div>-->
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-inverted">
+                                    <div class="timeline-badge primary"><i class="fa fa-save"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">2010년</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>복식 가계부 서비스(후잉) 이용 시작</p>
+                                        </div>
+                                    </div>
+                                </li>                                
+                                <li>
+                                    <div class="timeline-badge success"><i class="fa fa-graduation-cap"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">2008년</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>숭실대 컴퓨터 학부 졸업</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-8 -->
+                
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="dist/js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="dist/js/metisMenu.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="../bower_components/raphael/raphael-min.js"></script>
+    <script src="../bower_components/morrisjs/morris.min.js"></script>
+    <script src="../js/morris-data.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>
